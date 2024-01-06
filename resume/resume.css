@@ -128,6 +128,9 @@ h1{
     font-size: 36px;
     font-weight: 600;
 }
+.logo img{
+    border-radius: 50%;
+}
 p{
     color: white;
     font-size: 14px;
