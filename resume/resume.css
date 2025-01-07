@@ -237,6 +237,7 @@ h3{
     margin: auto;
     text-align: center;
     padding: 100px;
+    margin-bottom: 0%;
 }
 .fac-col{
     flex-basis: 31%;
@@ -280,7 +281,27 @@ h3{
     margin-bottom: 15px;
     text-align: left;
 }
+.hidden {
+    display: none;
+}
 
+.toggle-btn {
+    background: none;
+    border: none;
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.skill li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.indicator{
+    font-size: 12px;
+    margin-left: 5px;
+    color: rgb(16, 16, 16);
+}
 .comm{
     width: 80%;
     margin: auto;
@@ -346,16 +367,25 @@ h3{
 }
 .call a {
     text-decoration: none;
-    color: blue;
+    color: rgb(0, 0, 12);
+
 }
+
 .call p{color: white;}
+
+
 .icon .fa{
     color:grey;
-    margin:0 13px;
+    margin:0 5px;
     cursor: pointer;
 }
-
-
+.icon a{
+    text-decoration:solid;
+    color: grey;
+}
+.icon a:hover{
+    text-decoration: underline;
+}
 .campus h2 {
     color: #333;
 }
@@ -370,6 +400,11 @@ h3{
     margin-bottom: 10px;
     color:black;
 }
-
+.resume {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
 .campus strong {
     color:black; }

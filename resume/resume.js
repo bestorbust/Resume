@@ -11,6 +11,23 @@ function scrollFunction() {
   }
 }
 
+document.querySelectorAll('.toggle-btn').forEach((button) => {
+  button.addEventListener('click', () => {
+      const subList = button.nextElementSibling;
+      const indicator = button.querySelector('.indicator');
+      
+      if (subList) {
+          subList.classList.toggle('hidden'); // Toggle visibility
+          // Update indicator
+          if (subList.classList.contains('hidden')) {
+              indicator.textContent = '▼'; // Down arrow when hidden
+          } else {
+              indicator.textContent = '▲'; // Up arrow when visible
+          }
+      }
+  });
+});
+
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;
@@ -23,3 +40,6 @@ function topFunction() {
         function hideMenu(){
             navlinks.style.right="-200px";
         }
+
+
+        

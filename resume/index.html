@@ -20,6 +20,7 @@
                     <li><a href="#skills">SKILL</a></li>
                     <li><a href="#project">PROJECT</a></li>
                     <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#resume">RESUME</a></li>
 
                 </ul>
             </div>
@@ -89,6 +90,8 @@
 
     </section>
 
+    
+
     <section class="campus" id="education">
         <h1>Education</h1>
              <div class="row">
@@ -149,39 +152,85 @@
     </section>
     <section class="facilities" id="skills">
         <h1>SKILLS</h1>
-             <div class="row">
-                <div class="fac-col">
-                    <img src="img1.jpeg">
-                    <h3>Technical Skills:</h3>
-        <p><ul>
-            <li>Programming Languages: Python, C, C++</li>
-            <li>Web Development: HTML, CSS, JavaScript</li>
-        </ul></p></div>
-        <div class="fac-col">
-            <img src="img2.jpeg">
-            <section class="languages">
+        <div class="row">
+            <!-- Technical Skills Section -->
+            <div class="fac-col">
+                <img src="img1.jpeg" alt="Technical Skills Image">
+                <h3>Technical Skills:</h3>
+                <ul class="skill">
+                <li >
+                    <button class="toggle-btn">Programming Languages <span class="indicator">▼</span></button>
+                    <ul class="hidden">
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                    <li>SQL</li><br>
+                </ul>
+                </li>
+                <li >
+                    <button class="toggle-btn">Frontend<span class="indicator">▼</span></button>
+                    <ul class="hidden">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Angular</li>
+                    <li>React Native</li><br>
+                </ul>
+            </li>
+                    <li >
+                        <button class="toggle-btn">Backend<span class="indicator">▼</span></button>
+                        <ul class="hidden">
+                        <li>Node.js</li>
+                        <li>Flask</li><br>
+                    </ul>
+                    </li>
+
+                    <li >
+                        <button class="toggle-btn">Database<span class="indicator">▼</span></button>
+                        <ul class="hidden">
+                        <li>MySQL</li><br>
+                    </ul>
+                    </li>
+                    
+                    <li >
+                        <button class="toggle-btn">Tools<span class="indicator">▼</span></button>
+                        <ul class="hidden">
+                            <li>GitHub</li>
+                            <li>VS Code</li>
+                            <li>Netlify</li>
+                    </ul>
+                    </li>
+                    
+                </ul>
+            </div>
+    
+            <!-- Languages Section -->
+            <div class="fac-col">
+                <img src="img2.jpeg" alt="Languages Image">
                 <h3>Languages:</h3>
-                <p><ul>
+                <ul>
                     <li>English (Fluent)</li>
                     <li>Kannada (Fluent)</li>
                     <li>Tamil (Fluent)</li>
-                </ul></p></div>
-                
-                <div class="fac-col">
-                    <img src="img3.jpeg">
-                    <h3>Soft Skills:</h3>
-        <p><ul>
-            <li>Communication</li>
-            <li>Teamwork</li>
-            <li>Problem-solving</li>
-        </ul></p></div>
-        
-
-                
-             </div>
-             
+                </ul>
+            </div>
+    
+            <!-- Soft Skills Section -->
+            <div class="fac-col">
+                <img src="img3.jpeg" alt="Soft Skills Image">
+                <h3>Soft Skills:</h3>
+                <ul>
+                    <li>Communication</li>
+                    <li>Teamwork</li>
+                    <li>Problem-solving</li>
+                </ul>
+            </div>
+        </div>
     </section>
-
+    
    
    <section class="comm" id="project">
     <h1>PROJECTS</h1>
@@ -209,20 +258,20 @@
 </div>
 
    </section>
+
+   
    
 
     <section id="contact" class="call">
         <h2>CONTACT</h2>
         <p>For further inquiries and to explore additional information, please feel free to contact<br>
-             me through any of the following social media channels. You can also visit my LinkedIn<br>
+             me through any of the following social media channels. You can also visit my GitHub and LinkedIn<br>
               profile to have a glimpse of some of the projects I have undertaken."</p>
        <div class="icon">
         <ul>
-            <li><a href="https://www.facebook.com/profile.php?id=100023788925425&mibextid=vk8aRt" >twitter<i class="fa fa-twitter" ></i> </a>
+                <li><a href="https://github.com/bestorbust/">github  <i class="fa fa-github" ></i></a>
                 </li>
-                <li><a href="https://www.instagram.com/vlogs_with_ammu?igsh=MzY3d21sNjR1cHp2">instagram  <i class="fa fa-instagram" ></i></a>
-                </li>
-                        <li><a href="https://www.linkedin.com/in/priyadarshini-p-23a6b02a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn<i class="fa fa-linkedin" ></i></a>
+                        <li><a href="https://www.linkedin.com/in/priya-darshini-p-btech27/">LinkedIn<i class="fa fa-linkedin" ></i></a>
                         </li>
                     <li><a href="mailto:priyadarshinip@gmail.com" >priyadarshinip658@gmail.com  <i class="fa fa-envelope"></i>
                         </a>
@@ -234,6 +283,12 @@
        </div>
        </p>
     </section>
+
+
+    <section class="resume" id="resume">
+        <h1>Resume Viewer</h1>
+        <iframe src="Resume.pdf" width="80%" height="500px" ></iframe>
+        </section>
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up" ></i>
     </button>
     <script src="resume.js"></script>
